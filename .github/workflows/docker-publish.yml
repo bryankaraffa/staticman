@@ -8,6 +8,8 @@ on:
     branches: ['dev','master']
     tags: ['v*']
 
+  workflow_dispatch:
+
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
